@@ -1,106 +1,109 @@
-*{
+@media only screen and (min-width: 769px) and (max-width: 1281px) and (min-width : 320px) and (min-width : 480px) {
+    *{
 
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-.mhead{
-    height: 8.5%;
-    width: 500px;
-    position: fixed;
-   
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* margin-left: 315px; */
-    margin-top: -400px; 
-    border-radius: 6px 6px 0 0;
-    box-shadow: 0px 0px 8px gray;
-    font-weight: 700;
-    letter-spacing: .5px;
-    padding: 20px 20px 12px;
-    background-image: linear-gradient(to bottom, rgb(84, 145, 183), rgb(33, 87, 96));
-    background-repeat: no-repeat;
-    background-size: cover;
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    .mhead{
+        height: 8.5%;
+        width: 500px;
+        position: fixed;
+       
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* margin-left: 315px; */
+        margin-top: -400px; 
+        border-radius: 6px 6px 0 0;
+        box-shadow: 0px 0px 8px gray;
+        font-weight: 700;
+        letter-spacing: .5px;
+        padding: 20px 20px 12px;
+        background-image: linear-gradient(to bottom, rgb(84, 145, 183), rgb(33, 87, 96));
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    } 
     
-} 
-
-.mdiv{
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    /* background-color: gray; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(https://i.makeagif.com/media/1-20-2017/Dcv7Ly.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-
-}
-.container{
-    height: 350px;
-    width: 500px;
-    border-radius: 0 0 6px 6px;
-    padding: 20px;
-    /* background-color: white; */
-    box-shadow: 0px 0px 10px gray;
-    background-image: url(https://media4.giphy.com/media/tnPxFTth7qoDiw1rnm/giphy.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.head{
-    color: rgb(252, 249, 249);
-}
-.entr_citynm{
-    width: 500px;
-    height: 25px;
-    /* font-size: medium; */
-    border: 1.5px solid gray;
-    border-radius: 4px;
-    padding-left: 10px;
-    margin-top: 0px;
-    outline: none;
-    font-weight: bolder;
-    text-transform: uppercase;
-
-}
-
-.srch_btn{
-    border: none;
-    background-color: transparent;
-    padding-top: 20px;
-    cursor: pointer;
-    height: 10px;
-}
-
-.component{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.btn{
-    margin-top: -35px;
-    margin-left: 10px;
-}
-
-#city{
-    color: rgb(255, 187, 0);
-    font-family: arial black;
-    font-size: 20px;
-}
-
-.measurement{
-    font-family: sans-serif;
-    font-weight: bolder;
-    color:white;
-}
-
-.headings{
-    color: rgb(255, 187, 0);
-    font-family: Arial Black;
-    font-size: 12px;
+    .mdiv{
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        /* background-color: gray; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(https://i.makeagif.com/media/1-20-2017/Dcv7Ly.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+    
+    }
+    .container{
+        height: 350px;
+        width: 500px;
+        border-radius: 0 0 6px 6px;
+        padding: 20px;
+        /* background-color: white; */
+        box-shadow: 0px 0px 10px gray;
+        background-image: url(https://media4.giphy.com/media/tnPxFTth7qoDiw1rnm/giphy.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .head{
+        color: rgb(252, 249, 249);
+    }
+    .entr_citynm{
+        width: 500px;
+        height: 25px;
+        /* font-size: medium; */
+        border: 1.5px solid gray;
+        border-radius: 4px;
+        padding-left: 10px;
+        margin-top: 0px;
+        outline: none;
+        font-weight: bolder;
+        text-transform: uppercase;
+    
+    }
+    
+    .srch_btn{
+        border: none;
+        background-color: transparent;
+        padding-top: 20px;
+        cursor: pointer;
+        height: 10px;
+    }
+    
+    .component{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn{
+        margin-top: -35px;
+        margin-left: 10px;
+    }
+    
+    #city{
+        color: rgb(255, 187, 0);
+        font-family: arial black;
+        font-size: 20px;
+    }
+    
+    .measurement{
+        font-family: sans-serif;
+        font-weight: bolder;
+        color:white;
+    }
+    
+    .headings{
+        color: rgb(255, 187, 0);
+        font-family: Arial Black;
+        font-size: 12px;
+    }
+    
 }
