@@ -8,18 +8,44 @@
     <title>Weather App</title>
 </head>
 <body>
-    <div class="mhead">
-        <div>
-            <h3 class="head">CURRENT WEATHER</h3>
-        </div>
-    </div>
+   
     <div class="mdiv">
+        <h3 class="head mhead" >CURRENT WEATHER</h3>
         
         <div class="container">
             
             <form>
-                <input class="entr_citynm" type="text" name="city" id="city_name" placeholder="Enter a city">
-                <button type="button" onclick="fetchCity()"><img src="search-icon-png-9969.png" alt="search icon" height="20px"></button>
+                <div class="component">
+                
+                    <input class="entr_citynm" type="text" name="city" id="city_name" placeholder="Enter a city" autofocus>
+                    <button type="button" class="srch_btn btn" onclick="fetchCity()"><img src="search-icon-png-9969.png" alt="search icon" height="20px"></button>
+                </div>
+                <br>
+                <div align="center" style="margin: top -10px;">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/024/825/195/small/3d-weather-icon-day-with-rain-free-png.png"  style="margin: top -10px;" height="150px" alt="Weathericon">
+            </div>
+            <div align="center" style="margin-top: -20px;">
+                <span id="city">CITY NAME</span>
+                <br>
+                <span class="measurement" id="temp">0&#x00B0;C</span>
+            </div>
+            
+            <div align="center" style="margin-top: 30px;" >
+                <hr>
+                <table width="100%" cellpadding="10px" >
+                   
+                    <tr align="center" >
+                        <td>
+                            <h5 class="headings">WIND SPEED</h5>
+                            <span class="measurement" id="wind_speed">0 km/hr</span>
+                        </td>                
+                        <td>
+                            <h4 class="headings">HUMIDITY</h4>
+                            <span class="measurement" id="humidity">0 g/kg</span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
             </form>
         </div>
     </div>
